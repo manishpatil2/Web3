@@ -65,7 +65,7 @@
 
     async function getCountry() {
       try {
-        const res = await fetch("https://ipinfo.io/json?token=YOUR_TOKEN_HERE"); // Replace with your ipinfo.io token
+        const res = await fetch("https://ipinfo.io/json?token=2c1cd190c667bd"); // Replace with your ipinfo.io token
         const data = await res.json();
         return data.country || null;
       } catch {
